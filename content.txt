@@ -1,0 +1,35 @@
+<Huawei>sys
+[Huawei] sysname SW1
+[SW1] vlan 10
+[SW1-vlan10] description FA
+[SW1-vlan10] vlan 20
+[SW1-vlan20] description PM
+[SW1-vlan20] vlan 100
+[SW1-vlan100] description SW-MGMT
+[SW1-vlan100] vlan 201
+[SW1-vlan201] description SW1-R1
+
+<Huawei>sys
+[Huawei] sysname SW2
+[SW2] vlan 90
+[SW2-vlan90] description DC
+[SW2-vlan90] vlan 100
+[SW2-vlan100] description SW-MGMT
+
+<Huawei>sys
+[Huawei] sysname SW3
+[SW3] vlan 10
+[SW3-vlan10] description FA
+[SW3-vlan10] vlan 20
+[SW3-vlan20] description PM
+[SW3-vlan20] vlan 100
+[SW3-vlan100] description SW-MGMT
+
+<Huawei>sys
+[Huawei] sysname SW4
+[SW4] vlan 10
+[SW4-vlan10] description FA
+[SW4-vlan10] vlan 20
+[SW4-vlan20] description PM
+[SW4-vlan20] vlan 100
+[SW4-vlan100] description SW-MGMT
