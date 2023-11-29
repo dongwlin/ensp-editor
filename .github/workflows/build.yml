@@ -48,4 +48,4 @@ jobs:
         if: always()
         with:
           name: ensp-editor-${{ matrix.os == 'windows-latest' && 'win' || (matrix.os == 'ubuntu-latest' && 'linux' || 'macos') }}
-          path: dist/${{ matrix.os == 'windows-latest' && 'win' || (matrix.os == 'ubuntu-latest' && 'linux' || 'macos') }}-unpacked
+          path: dist/${{ matrix.os == 'windows-latest' && 'win-unpacked' || (matrix.os == 'ubuntu-latest' && 'linux-unpacked' || 'mac') }}
