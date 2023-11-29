@@ -40,9 +40,4 @@ html, body, #app {
   font-size: 12px;
   font-family: 'Courier New';
 }
-
-.header-bar {
-  position: ;
-}
-
 </style>

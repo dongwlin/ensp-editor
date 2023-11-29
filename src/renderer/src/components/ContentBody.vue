@@ -17,4 +17,7 @@ onMounted(() => {
 </template>
 
 <style scoped lang="less">
+.content {
+  margin: 0;
+}
 </style>

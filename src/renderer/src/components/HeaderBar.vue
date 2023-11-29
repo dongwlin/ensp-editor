@@ -12,6 +12,10 @@
   height: 30px;
   line-height: 30px;
 
+  position: fixed;
+  top: 0;
+  left: 0;
+
   -webkit-app-region: drag;
 }
 </style>
