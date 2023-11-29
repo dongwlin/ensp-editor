@@ -24,6 +24,11 @@ jobs:
         with:
           node-version: 20
 
+      - name: Install pnpm
+        uses: pnpm/action-setup@v2
+        with:
+          version: latest
+
       - name: Install Dependencies
         run: pnpm install
 
@@ -42,6 +47,5 @@ jobs:
       - uses: actions/upload-artifact@v3
         if: always()
         with:
-          # name: maa-y-${{ matrix.os }}-${{ matrix.arch }}
           name: ensp-editor-${{ matrix.os == 'windows-latest' && 'win' || (matrix.os == 'ubuntu-latest' && 'linux' || 'macos') }}
           path: 'dist'
