@@ -1,34 +1,7 @@
 # ensp-editor
 
-An Electron application with Vue and TypeScript
+`Ctrl/Command + Q` 显示/隐藏窗口
 
-## Recommended IDE Setup
+在应用根目录下创建 `content.txt`，`content.txt`中的内容在启动应用时将显示在窗口中
 
-- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin)
-
-## Project Setup
-
-### Install
-
-```bash
-$ pnpm install
-```
-
-### Development
-
-```bash
-$ pnpm dev
-```
-
-### Build
-
-```bash
-# For windows
-$ pnpm build:win
-
-# For macOS
-$ pnpm build:mac
-
-# For Linux
-$ pnpm build:linux
-```
+窗口顶部可拖拽
